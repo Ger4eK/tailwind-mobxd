@@ -2,4 +2,3 @@
 
 - tailwind
 - ionicon
-- alpinejs

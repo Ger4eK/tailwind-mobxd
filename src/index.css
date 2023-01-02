@@ -7,3 +7,13 @@
 body{
   font-family: 'Inter', sans-serif;
 }
+
+@layer base {
+  * {
+    @apply scroll-smooth;
+  }
+
+  .btn {
+    @apply rounded-md bg-blue-500 px-8 py-2.5 font-semibold text-white shadow-md shadow-blue-500/20 duration-200 hover:bg-blue-600;
+  }
+}
