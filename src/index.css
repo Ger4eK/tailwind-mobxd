@@ -16,4 +16,7 @@ body{
   .btn {
     @apply rounded-md bg-blue-500 px-8 py-2.5 font-semibold text-white shadow-md shadow-blue-500/20 duration-200 hover:bg-blue-600;
   }
+  .btn-outline {
+    @apply rounded-md border border-blue-500/20 px-8 py-2.5 font-semibold text-blue-500 shadow-md hover:shadow-blue-500/10 duration-200
+  }
 }
